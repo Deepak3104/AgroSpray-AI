@@ -34,7 +34,6 @@ from training.common import (
     preprocess_image,
     top_prediction,
 )
-from training.gradcam import save_gradcam_overlay
 
 APP_ROOT = Path(__file__).resolve().parents[1]
 PESTICIDE_DB_PATH = APP_ROOT / "pesticide_recommendations.json"
@@ -71,8 +70,11 @@ class PredictionResponse(BaseModel):
 def startup_event() -> None:
     global model, class_names, pesticide_db, firestore_client, storage_bucket
     ensure_directories()
-    model = load_model(MODEL_PATH)
-    class_names = load_class_names()
+    model = None
+    try:
+        class_names = load_class_names()
+    except FileNotFoundError:
+        class_names = []
     pesticide_db = load_pesticide_database(PESTICIDE_DB_PATH)
     _initialize_firebase_admin()
 
@@ -85,7 +87,15 @@ def health() -> Dict[str, str]:
 @app.post("/predict", response_model=PredictionResponse)
 async def predict(image: UploadFile = File(...)) -> PredictionResponse:
     if model is None:
-        raise HTTPException(status_code=503, detail="Model is not loaded.")
+        try:
+            loaded_model = load_model(MODEL_PATH)
+        except Exception as error:
+            raise HTTPException(status_code=503, detail=f"Model is not loaded: {error}") from error
+    else:
+        loaded_model = model
+
+    if not class_names:
+        raise HTTPException(status_code=503, detail="Class labels are not available yet.")
 
     if image.content_type is None or not image.content_type.startswith("image/"):
         raise HTTPException(status_code=400, detail="Please upload a valid image file.")
@@ -99,14 +109,16 @@ async def predict(image: UploadFile = File(...)) -> PredictionResponse:
     saved_path.write_bytes(content)
 
     input_tensor = preprocess_image(saved_path)
-    probabilities = model.predict(input_tensor, verbose=0)
+    probabilities = loaded_model.predict(input_tensor, verbose=0)
     predicted_class, confidence, index = top_prediction(probabilities, class_names)
     disease_name = class_name_to_display_name(predicted_class)
     recommendation = _lookup_recommendation(disease_name)
 
     gradcam_path = GRADCAM_DIR / f"{saved_path.stem}_heatmap.jpg"
     try:
-        save_gradcam_overlay(model, saved_path, gradcam_path, pred_index=index)
+        from training.gradcam import save_gradcam_overlay
+
+        save_gradcam_overlay(loaded_model, saved_path, gradcam_path, pred_index=index)
         gradcam_output = str(gradcam_path)
     except Exception:
         gradcam_output = None

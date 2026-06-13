@@ -1,0 +1,28 @@
+name: smart_agrospray_rover
+description: AI-powered Smart AgroSpray Rover mobile app.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+  flutter: '>=3.10.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.6
+  http: ^0.14.7
+  image_picker: ^0.8.8+2
+  firebase_core: ^3.15.0
+  firebase_auth: ^5.7.0
+  shared_preferences: ^2.5.5
+  google_fonts: ^6.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true

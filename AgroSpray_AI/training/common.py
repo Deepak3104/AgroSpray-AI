@@ -6,8 +6,6 @@ from pathlib import Path
 from typing import Dict, List, Tuple
 
 import numpy as np
-import tensorflow as tf
-from tensorflow.keras import layers, models
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 DATASET_DIR = PROJECT_ROOT / "dataset"
@@ -28,7 +26,10 @@ def ensure_directories() -> None:
         path.mkdir(parents=True, exist_ok=True)
 
 
-def build_model(num_classes: int) -> tf.keras.Model:
+def build_model(num_classes: int):
+    import tensorflow as tf
+    from tensorflow.keras import layers, models
+
     base_model = tf.keras.applications.MobileNetV2(
         input_shape=(*IMAGE_SIZE, 3),
         include_top=False,
@@ -54,6 +55,8 @@ def build_model(num_classes: int) -> tf.keras.Model:
 
 
 def create_image_generators(dataset_dir: Path):
+    import tensorflow as tf
+
     train_dir = dataset_dir / "train"
     validation_dir = dataset_dir / "validation"
 
@@ -108,13 +111,17 @@ def load_class_names() -> List[str]:
     return json.loads(CLASS_NAMES_PATH.read_text(encoding="utf-8"))
 
 
-def load_model(path: Path = MODEL_PATH) -> tf.keras.Model:
+def load_model(path: Path = MODEL_PATH):
+    import tensorflow as tf
+
     if not path.exists():
         raise FileNotFoundError(f"Model file not found at {path}. Train the model first.")
     return tf.keras.models.load_model(path)
 
 
 def preprocess_image(image_path: str | Path) -> np.ndarray:
+    import tensorflow as tf
+
     image = tf.keras.utils.load_img(image_path, target_size=IMAGE_SIZE)
     array = tf.keras.utils.img_to_array(image)
     array = np.expand_dims(array, axis=0)
