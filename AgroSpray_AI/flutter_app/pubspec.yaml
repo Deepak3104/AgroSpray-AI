@@ -1,0 +1,28 @@
+name: agrospray_flutter
+description: AgroSpray Flutter client for crop disease detection and pesticide recommendation.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+  flutter: '>=3.22.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2
+  firebase_core: ^3.8.0
+  firebase_auth: ^5.3.3
+  cloud_firestore: ^5.6.0
+  firebase_storage: ^12.3.0
+  tflite_flutter: ^0.11.0
+  image_picker: ^1.1.2
+  shared_preferences: ^2.3.3
+  google_fonts: ^6.2.1
+  image: ^4.2.0
+  intl: ^0.20.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/models/

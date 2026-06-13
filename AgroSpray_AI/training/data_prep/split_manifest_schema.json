@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AgroSpray Dataset Split Manifest",
+  "type": "object",
+  "properties": {
+    "train": { "type": "object" },
+    "validation": { "type": "object" },
+    "test": { "type": "object" }
+  },
+  "required": ["train", "validation", "test"]
+}

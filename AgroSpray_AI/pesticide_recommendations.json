@@ -1,0 +1,38 @@
+{
+  "Healthy": {
+    "pesticide": "No pesticide required",
+    "dosage": "N/A",
+    "safety": "Continue monitoring and maintain field hygiene.",
+    "notes": "Healthy foliage detected. Follow preventive scouting."
+  },
+  "Early Blight": {
+    "pesticide": "Mancozeb",
+    "dosage": "2 g/L water",
+    "safety": "Wear gloves, mask, and protective clothing.",
+    "notes": "Apply at early disease onset and repeat as advised by label."
+  },
+  "Late Blight": {
+    "pesticide": "Chlorothalonil",
+    "dosage": "3 g/L water",
+    "safety": "Avoid spraying before rain and follow local regulations.",
+    "notes": "Use in rotation with other modes of action to reduce resistance."
+  },
+  "Bacterial Spot": {
+    "pesticide": "Copper hydroxide",
+    "dosage": "2.5 g/L water",
+    "safety": "Do not spray in hot conditions; use PPE.",
+    "notes": "Remove infected leaves and sanitize tools."
+  },
+  "Leaf Mold": {
+    "pesticide": "Azoxystrobin",
+    "dosage": "1 mL/L water",
+    "safety": "Avoid drift to water bodies.",
+    "notes": "Improve ventilation and reduce humidity where possible."
+  },
+  "Septoria Leaf Spot": {
+    "pesticide": "Copper oxychloride",
+    "dosage": "2 g/L water",
+    "safety": "Wear eye protection and avoid spraying during wind.",
+    "notes": "Remove infected debris and practice crop rotation."
+  }
+}
