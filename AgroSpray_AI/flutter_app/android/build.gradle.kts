@@ -3,6 +3,14 @@ allprojects {
         google()
         mavenCentral()
     }
+    
+    plugins.withId("org.jetbrains.kotlin.jvm") {
+        configure<org.jetbrains.kotlin.gradle.dsl.KotlinJvmProjectExtension> {
+            compilerOptions {
+                jvmTarget = org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_21
+            }
+        }
+    }
 }
 
 val newBuildDir: Directory =
