@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "953045139372",
+    "project_id": "agrospray-ai-1476a",
+    "storage_bucket": "agrospray-ai-1476a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:953045139372:android:5096bb586cc0e8b2bec409",
+        "android_client_info": {
+          "package_name": "com.example.agrospray"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNj6aqfcu3DUhVoNlwz6uvDG-ZeNhTMSY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

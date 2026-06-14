@@ -6,7 +6,7 @@ import 'package:agro_spray/screens/crop/crop_history_screen.dart';
 import 'package:agro_spray/screens/home/home_shell.dart';
 import 'package:agro_spray/screens/profile/profile_screen.dart';
 import 'package:agro_spray/screens/reports/reports_screen.dart';
-import 'package:agro_spray/screens/recommendation/recommendation_screen.dart';
+import 'package:agro_spray/screens/ai_assistant/ai_assistant_screen.dart';
 import 'package:agro_spray/screens/schedule/schedule_form_screen.dart';
 import 'package:agro_spray/screens/schedule/schedule_screen.dart';
 import 'package:agro_spray/screens/splash/splash_screen.dart';
@@ -43,7 +43,7 @@ class AppRoutes {
       case cropHistory:
         return MaterialPageRoute(builder: (_) => const CropHistoryScreen());
       case recommendation:
-        return MaterialPageRoute(builder: (_) => const RecommendationScreen());
+        return MaterialPageRoute(builder: (_) => const AIAssistantScreen());
       case schedule:
         return MaterialPageRoute(builder: (_) => const ScheduleScreen());
       case scheduleForm:
