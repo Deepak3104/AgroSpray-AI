@@ -1,0 +1,32 @@
+{
+  "test": {
+    "Pepper_Bacterial_Spot": 3,
+    "Pepper_Healthy": 3,
+    "Potato_Early_Blight": 3,
+    "Potato_Late_Blight": 3,
+    "Tomato_Early_Blight": 3,
+    "Tomato_Late_Blight": 3,
+    "Tomato_Leaf_Mold": 3,
+    "Tomato_Septoria_Leaf_Spot": 3
+  },
+  "train": {
+    "Pepper_Bacterial_Spot": 21,
+    "Pepper_Healthy": 21,
+    "Potato_Early_Blight": 21,
+    "Potato_Late_Blight": 21,
+    "Tomato_Early_Blight": 21,
+    "Tomato_Late_Blight": 21,
+    "Tomato_Leaf_Mold": 21,
+    "Tomato_Septoria_Leaf_Spot": 21
+  },
+  "validation": {
+    "Pepper_Bacterial_Spot": 6,
+    "Pepper_Healthy": 6,
+    "Potato_Early_Blight": 6,
+    "Potato_Late_Blight": 6,
+    "Tomato_Early_Blight": 6,
+    "Tomato_Late_Blight": 6,
+    "Tomato_Leaf_Mold": 6,
+    "Tomato_Septoria_Leaf_Spot": 6
+  }
+}

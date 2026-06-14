@@ -1,0 +1,1442 @@
+[
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Bacterial_Spot\\leaf_000_19d77435ba_a632046039.jpg",
+    "label": "Pepper_Bacterial_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Bacterial_Spot\\leaf_000_19d77435ba_a632046039.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Bacterial_Spot\\leaf_001_37f0e57918_3a036ebf21.jpg",
+    "label": "Pepper_Bacterial_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Bacterial_Spot\\leaf_001_37f0e57918_3a036ebf21.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Bacterial_Spot\\leaf_002_45206b3331_cbe472aa3b.jpg",
+    "label": "Pepper_Bacterial_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Bacterial_Spot\\leaf_002_45206b3331_cbe472aa3b.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Bacterial_Spot\\leaf_003_cdaded2574_491176c283.jpg",
+    "label": "Pepper_Bacterial_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Bacterial_Spot\\leaf_003_cdaded2574_491176c283.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Bacterial_Spot\\leaf_004_443e0a9b01_10e37b75d2.jpg",
+    "label": "Pepper_Bacterial_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Bacterial_Spot\\leaf_004_443e0a9b01_10e37b75d2.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Bacterial_Spot\\leaf_005_d4bb10e27d_42d8e19aac.jpg",
+    "label": "Pepper_Bacterial_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Bacterial_Spot\\leaf_005_d4bb10e27d_42d8e19aac.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Bacterial_Spot\\leaf_006_aef5d79d46_47facc4622.jpg",
+    "label": "Pepper_Bacterial_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Bacterial_Spot\\leaf_006_aef5d79d46_47facc4622.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Bacterial_Spot\\leaf_007_e225a48c97_ec6eb1989b.jpg",
+    "label": "Pepper_Bacterial_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Bacterial_Spot\\leaf_007_e225a48c97_ec6eb1989b.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Bacterial_Spot\\leaf_008_5f390079da_1020e45f1b.jpg",
+    "label": "Pepper_Bacterial_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Bacterial_Spot\\leaf_008_5f390079da_1020e45f1b.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Bacterial_Spot\\leaf_009_1cdd4d772a_fa8fbfcc2b.jpg",
+    "label": "Pepper_Bacterial_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Bacterial_Spot\\leaf_009_1cdd4d772a_fa8fbfcc2b.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Bacterial_Spot\\leaf_010_267537c01f_a8fcdc1747.jpg",
+    "label": "Pepper_Bacterial_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Bacterial_Spot\\leaf_010_267537c01f_a8fcdc1747.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Bacterial_Spot\\leaf_011_6fd6a0fc77_a34b48353e.jpg",
+    "label": "Pepper_Bacterial_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Bacterial_Spot\\leaf_011_6fd6a0fc77_a34b48353e.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Bacterial_Spot\\leaf_012_acef824d89_99c7a24209.jpg",
+    "label": "Pepper_Bacterial_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Bacterial_Spot\\leaf_012_acef824d89_99c7a24209.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Bacterial_Spot\\leaf_013_936eb17f1e_635e724005.jpg",
+    "label": "Pepper_Bacterial_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Bacterial_Spot\\leaf_013_936eb17f1e_635e724005.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Bacterial_Spot\\leaf_014_088eb4a635_b3c1b6907e.jpg",
+    "label": "Pepper_Bacterial_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Bacterial_Spot\\leaf_014_088eb4a635_b3c1b6907e.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Bacterial_Spot\\leaf_015_b79845f74d_cfd45bdd99.jpg",
+    "label": "Pepper_Bacterial_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Bacterial_Spot\\leaf_015_b79845f74d_cfd45bdd99.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Bacterial_Spot\\leaf_016_f43f39c91d_1ca8886d93.jpg",
+    "label": "Pepper_Bacterial_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Bacterial_Spot\\leaf_016_f43f39c91d_1ca8886d93.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Bacterial_Spot\\leaf_017_853e6eaa1c_68e8d60c3e.jpg",
+    "label": "Pepper_Bacterial_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Bacterial_Spot\\leaf_017_853e6eaa1c_68e8d60c3e.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Bacterial_Spot\\leaf_018_81257075f1_1ee9e7c362.jpg",
+    "label": "Pepper_Bacterial_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Bacterial_Spot\\leaf_018_81257075f1_1ee9e7c362.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Bacterial_Spot\\leaf_019_ebc6499832_96972d628f.jpg",
+    "label": "Pepper_Bacterial_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Bacterial_Spot\\leaf_019_ebc6499832_96972d628f.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Bacterial_Spot\\leaf_020_8a67cbf3ae_9117704eee.jpg",
+    "label": "Pepper_Bacterial_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Bacterial_Spot\\leaf_020_8a67cbf3ae_9117704eee.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Bacterial_Spot\\leaf_021_107fc45449_3e32f6c325.jpg",
+    "label": "Pepper_Bacterial_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Bacterial_Spot\\leaf_021_107fc45449_3e32f6c325.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Bacterial_Spot\\leaf_022_af89cb0cff_0e75e43ec6.jpg",
+    "label": "Pepper_Bacterial_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Bacterial_Spot\\leaf_022_af89cb0cff_0e75e43ec6.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Bacterial_Spot\\leaf_023_3ca51ac04c_69c96ae09a.jpg",
+    "label": "Pepper_Bacterial_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Bacterial_Spot\\leaf_023_3ca51ac04c_69c96ae09a.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Bacterial_Spot\\leaf_024_8f5d5837ed_7157f1d1c4.jpg",
+    "label": "Pepper_Bacterial_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Bacterial_Spot\\leaf_024_8f5d5837ed_7157f1d1c4.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Bacterial_Spot\\leaf_025_552009041f_70296f686d.jpg",
+    "label": "Pepper_Bacterial_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Bacterial_Spot\\leaf_025_552009041f_70296f686d.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Bacterial_Spot\\leaf_026_61b5a3464e_8811249d78.jpg",
+    "label": "Pepper_Bacterial_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Bacterial_Spot\\leaf_026_61b5a3464e_8811249d78.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Bacterial_Spot\\leaf_027_7d1c0a7570_eb8679af43.jpg",
+    "label": "Pepper_Bacterial_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Bacterial_Spot\\leaf_027_7d1c0a7570_eb8679af43.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Bacterial_Spot\\leaf_028_72d29cfae4_250a0fcd11.jpg",
+    "label": "Pepper_Bacterial_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Bacterial_Spot\\leaf_028_72d29cfae4_250a0fcd11.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Bacterial_Spot\\leaf_029_82f48a668b_085ddf6134.jpg",
+    "label": "Pepper_Bacterial_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Bacterial_Spot\\leaf_029_82f48a668b_085ddf6134.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Healthy\\leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "label": "Pepper_Healthy",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Healthy\\leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Healthy\\aug_0000_leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "label": "Pepper_Healthy",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Healthy\\leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "type": "augmented"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Healthy\\aug_0001_leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "label": "Pepper_Healthy",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Healthy\\leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "type": "augmented"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Healthy\\aug_0002_leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "label": "Pepper_Healthy",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Healthy\\leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "type": "augmented"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Healthy\\aug_0003_leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "label": "Pepper_Healthy",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Healthy\\leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "type": "augmented"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Healthy\\aug_0004_leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "label": "Pepper_Healthy",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Healthy\\leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "type": "augmented"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Healthy\\aug_0005_leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "label": "Pepper_Healthy",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Healthy\\leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "type": "augmented"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Healthy\\aug_0006_leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "label": "Pepper_Healthy",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Healthy\\leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "type": "augmented"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Healthy\\aug_0007_leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "label": "Pepper_Healthy",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Healthy\\leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "type": "augmented"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Healthy\\aug_0008_leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "label": "Pepper_Healthy",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Healthy\\leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "type": "augmented"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Healthy\\aug_0009_leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "label": "Pepper_Healthy",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Healthy\\leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "type": "augmented"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Healthy\\aug_0010_leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "label": "Pepper_Healthy",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Healthy\\leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "type": "augmented"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Healthy\\aug_0011_leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "label": "Pepper_Healthy",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Healthy\\leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "type": "augmented"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Healthy\\aug_0012_leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "label": "Pepper_Healthy",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Healthy\\leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "type": "augmented"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Healthy\\aug_0013_leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "label": "Pepper_Healthy",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Healthy\\leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "type": "augmented"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Healthy\\aug_0014_leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "label": "Pepper_Healthy",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Healthy\\leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "type": "augmented"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Healthy\\aug_0015_leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "label": "Pepper_Healthy",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Healthy\\leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "type": "augmented"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Healthy\\aug_0016_leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "label": "Pepper_Healthy",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Healthy\\leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "type": "augmented"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Healthy\\aug_0017_leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "label": "Pepper_Healthy",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Healthy\\leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "type": "augmented"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Healthy\\aug_0018_leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "label": "Pepper_Healthy",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Healthy\\leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "type": "augmented"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Healthy\\aug_0019_leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "label": "Pepper_Healthy",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Healthy\\leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "type": "augmented"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Healthy\\aug_0020_leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "label": "Pepper_Healthy",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Healthy\\leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "type": "augmented"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Healthy\\aug_0021_leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "label": "Pepper_Healthy",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Healthy\\leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "type": "augmented"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Healthy\\aug_0022_leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "label": "Pepper_Healthy",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Healthy\\leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "type": "augmented"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Healthy\\aug_0023_leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "label": "Pepper_Healthy",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Healthy\\leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "type": "augmented"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Healthy\\aug_0024_leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "label": "Pepper_Healthy",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Healthy\\leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "type": "augmented"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Healthy\\aug_0025_leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "label": "Pepper_Healthy",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Healthy\\leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "type": "augmented"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Healthy\\aug_0026_leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "label": "Pepper_Healthy",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Healthy\\leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "type": "augmented"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Healthy\\aug_0027_leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "label": "Pepper_Healthy",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Healthy\\leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "type": "augmented"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Pepper_Healthy\\aug_0028_leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "label": "Pepper_Healthy",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Pepper_Healthy\\leaf_000_3083cc4e9d_570223e2f1.jpg",
+    "type": "augmented"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Early_Blight\\leaf_000_09614c078b_fee887ffe8.jpg",
+    "label": "Potato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Early_Blight\\leaf_000_09614c078b_fee887ffe8.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Early_Blight\\leaf_001_0c83c21fc4_880df6c742.jpg",
+    "label": "Potato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Early_Blight\\leaf_001_0c83c21fc4_880df6c742.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Early_Blight\\leaf_002_7c8da68af5_71f0a272cf.jpg",
+    "label": "Potato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Early_Blight\\leaf_002_7c8da68af5_71f0a272cf.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Early_Blight\\leaf_003_6440bb9be8_df49e997f1.jpg",
+    "label": "Potato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Early_Blight\\leaf_003_6440bb9be8_df49e997f1.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Early_Blight\\leaf_004_50e5659a8a_0d4d734840.jpg",
+    "label": "Potato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Early_Blight\\leaf_004_50e5659a8a_0d4d734840.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Early_Blight\\leaf_005_d516f75c98_7e254501c6.jpg",
+    "label": "Potato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Early_Blight\\leaf_005_d516f75c98_7e254501c6.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Early_Blight\\leaf_006_4616677192_06662591ae.jpg",
+    "label": "Potato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Early_Blight\\leaf_006_4616677192_06662591ae.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Early_Blight\\leaf_007_8dca6b7f2c_3be79a6f29.jpg",
+    "label": "Potato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Early_Blight\\leaf_007_8dca6b7f2c_3be79a6f29.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Early_Blight\\leaf_008_1386ea9a68_e4c31e8731.jpg",
+    "label": "Potato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Early_Blight\\leaf_008_1386ea9a68_e4c31e8731.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Early_Blight\\leaf_009_b43cd7c500_2bfc93ba04.jpg",
+    "label": "Potato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Early_Blight\\leaf_009_b43cd7c500_2bfc93ba04.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Early_Blight\\leaf_010_f3ccb2f91e_c4da80fabf.jpg",
+    "label": "Potato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Early_Blight\\leaf_010_f3ccb2f91e_c4da80fabf.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Early_Blight\\leaf_011_167945774a_a0ce663a9e.jpg",
+    "label": "Potato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Early_Blight\\leaf_011_167945774a_a0ce663a9e.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Early_Blight\\leaf_012_7ed3ea59b0_720e759deb.jpg",
+    "label": "Potato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Early_Blight\\leaf_012_7ed3ea59b0_720e759deb.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Early_Blight\\leaf_013_1a0836eba5_1869809370.jpg",
+    "label": "Potato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Early_Blight\\leaf_013_1a0836eba5_1869809370.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Early_Blight\\leaf_014_6b42358c56_889987c637.jpg",
+    "label": "Potato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Early_Blight\\leaf_014_6b42358c56_889987c637.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Early_Blight\\leaf_015_87cdc52c36_f0a8c6ca32.jpg",
+    "label": "Potato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Early_Blight\\leaf_015_87cdc52c36_f0a8c6ca32.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Early_Blight\\leaf_016_341703cb12_29684dfbd7.jpg",
+    "label": "Potato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Early_Blight\\leaf_016_341703cb12_29684dfbd7.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Early_Blight\\leaf_017_dc83911fdd_df277b0421.jpg",
+    "label": "Potato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Early_Blight\\leaf_017_dc83911fdd_df277b0421.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Early_Blight\\leaf_018_43c05b13a0_4712c1596e.jpg",
+    "label": "Potato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Early_Blight\\leaf_018_43c05b13a0_4712c1596e.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Early_Blight\\leaf_019_d25b5fc0b4_16c188f954.jpg",
+    "label": "Potato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Early_Blight\\leaf_019_d25b5fc0b4_16c188f954.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Early_Blight\\leaf_020_6f7e8c7804_65f4688d11.jpg",
+    "label": "Potato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Early_Blight\\leaf_020_6f7e8c7804_65f4688d11.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Early_Blight\\leaf_021_f93afc4543_51c9978a6f.jpg",
+    "label": "Potato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Early_Blight\\leaf_021_f93afc4543_51c9978a6f.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Early_Blight\\leaf_022_68b955d695_67245c265d.jpg",
+    "label": "Potato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Early_Blight\\leaf_022_68b955d695_67245c265d.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Early_Blight\\leaf_023_92ae4808d0_4b6fb92da2.jpg",
+    "label": "Potato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Early_Blight\\leaf_023_92ae4808d0_4b6fb92da2.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Early_Blight\\leaf_024_348533bbe0_908efbc947.jpg",
+    "label": "Potato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Early_Blight\\leaf_024_348533bbe0_908efbc947.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Early_Blight\\leaf_025_ec590dc2de_3fcfba4555.jpg",
+    "label": "Potato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Early_Blight\\leaf_025_ec590dc2de_3fcfba4555.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Early_Blight\\leaf_026_63b32adbdd_2f1da35e66.jpg",
+    "label": "Potato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Early_Blight\\leaf_026_63b32adbdd_2f1da35e66.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Early_Blight\\leaf_027_c2590bcfb0_36bae0bc5e.jpg",
+    "label": "Potato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Early_Blight\\leaf_027_c2590bcfb0_36bae0bc5e.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Early_Blight\\leaf_028_8750bdb3cc_bb416ddaba.jpg",
+    "label": "Potato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Early_Blight\\leaf_028_8750bdb3cc_bb416ddaba.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Early_Blight\\leaf_029_57cc8b3224_94d3af1d7c.jpg",
+    "label": "Potato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Early_Blight\\leaf_029_57cc8b3224_94d3af1d7c.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Late_Blight\\leaf_000_f7bfb9987e_b387934c90.jpg",
+    "label": "Potato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Late_Blight\\leaf_000_f7bfb9987e_b387934c90.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Late_Blight\\leaf_001_62daad28cc_48d82d8441.jpg",
+    "label": "Potato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Late_Blight\\leaf_001_62daad28cc_48d82d8441.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Late_Blight\\leaf_002_aad6469f84_c97f1f6225.jpg",
+    "label": "Potato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Late_Blight\\leaf_002_aad6469f84_c97f1f6225.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Late_Blight\\leaf_003_6db0ee75ca_987a807e82.jpg",
+    "label": "Potato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Late_Blight\\leaf_003_6db0ee75ca_987a807e82.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Late_Blight\\leaf_004_80ed774989_2883044c00.jpg",
+    "label": "Potato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Late_Blight\\leaf_004_80ed774989_2883044c00.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Late_Blight\\leaf_005_917ce94173_04882f7e39.jpg",
+    "label": "Potato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Late_Blight\\leaf_005_917ce94173_04882f7e39.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Late_Blight\\leaf_006_ccc4300c23_c63a59b340.jpg",
+    "label": "Potato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Late_Blight\\leaf_006_ccc4300c23_c63a59b340.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Late_Blight\\leaf_007_f52e404458_22beec2c4a.jpg",
+    "label": "Potato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Late_Blight\\leaf_007_f52e404458_22beec2c4a.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Late_Blight\\leaf_008_b25af414e3_c033288da1.jpg",
+    "label": "Potato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Late_Blight\\leaf_008_b25af414e3_c033288da1.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Late_Blight\\leaf_009_2a9462896b_f40cd30b58.jpg",
+    "label": "Potato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Late_Blight\\leaf_009_2a9462896b_f40cd30b58.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Late_Blight\\leaf_010_6113362224_27422b9d87.jpg",
+    "label": "Potato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Late_Blight\\leaf_010_6113362224_27422b9d87.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Late_Blight\\leaf_011_5058d7a5d6_5301a74878.jpg",
+    "label": "Potato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Late_Blight\\leaf_011_5058d7a5d6_5301a74878.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Late_Blight\\leaf_012_f01494c9cf_e60c05004f.jpg",
+    "label": "Potato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Late_Blight\\leaf_012_f01494c9cf_e60c05004f.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Late_Blight\\leaf_013_69d3dd5cbf_393c836900.jpg",
+    "label": "Potato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Late_Blight\\leaf_013_69d3dd5cbf_393c836900.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Late_Blight\\leaf_014_f5c56b65e9_621a1be25a.jpg",
+    "label": "Potato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Late_Blight\\leaf_014_f5c56b65e9_621a1be25a.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Late_Blight\\leaf_015_b354fa071e_2ec4e7b112.jpg",
+    "label": "Potato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Late_Blight\\leaf_015_b354fa071e_2ec4e7b112.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Late_Blight\\leaf_016_6099e64871_4b00c8ef0a.jpg",
+    "label": "Potato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Late_Blight\\leaf_016_6099e64871_4b00c8ef0a.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Late_Blight\\leaf_017_a75efbf8ae_4ad10d23da.jpg",
+    "label": "Potato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Late_Blight\\leaf_017_a75efbf8ae_4ad10d23da.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Late_Blight\\leaf_018_eec6b7ab84_0be94e3c36.jpg",
+    "label": "Potato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Late_Blight\\leaf_018_eec6b7ab84_0be94e3c36.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Late_Blight\\leaf_019_d42569c0ef_00c8f10b84.jpg",
+    "label": "Potato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Late_Blight\\leaf_019_d42569c0ef_00c8f10b84.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Late_Blight\\leaf_020_a819809fed_5351c06fa1.jpg",
+    "label": "Potato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Late_Blight\\leaf_020_a819809fed_5351c06fa1.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Late_Blight\\leaf_021_b4d917fccc_d162e5aa91.jpg",
+    "label": "Potato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Late_Blight\\leaf_021_b4d917fccc_d162e5aa91.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Late_Blight\\leaf_022_5a70bdfd95_0b18a3ac10.jpg",
+    "label": "Potato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Late_Blight\\leaf_022_5a70bdfd95_0b18a3ac10.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Late_Blight\\leaf_023_90b8d052da_dd8af267cc.jpg",
+    "label": "Potato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Late_Blight\\leaf_023_90b8d052da_dd8af267cc.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Late_Blight\\leaf_024_0b4afda771_401db19c3c.jpg",
+    "label": "Potato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Late_Blight\\leaf_024_0b4afda771_401db19c3c.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Late_Blight\\leaf_025_d0aac27772_4247fbe6c9.jpg",
+    "label": "Potato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Late_Blight\\leaf_025_d0aac27772_4247fbe6c9.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Late_Blight\\leaf_026_6bdbe4aa37_28b601ef8c.jpg",
+    "label": "Potato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Late_Blight\\leaf_026_6bdbe4aa37_28b601ef8c.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Late_Blight\\leaf_027_fa0307dbc3_ad922b5f8f.jpg",
+    "label": "Potato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Late_Blight\\leaf_027_fa0307dbc3_ad922b5f8f.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Late_Blight\\leaf_028_3dfef5734c_bb7a644bfd.jpg",
+    "label": "Potato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Late_Blight\\leaf_028_3dfef5734c_bb7a644bfd.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Potato_Late_Blight\\leaf_029_48c864c19e_a03267f88f.jpg",
+    "label": "Potato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Potato_Late_Blight\\leaf_029_48c864c19e_a03267f88f.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Early_Blight\\leaf_000_6bb4adeeb6_5aa40d202f.jpg",
+    "label": "Tomato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Early_Blight\\leaf_000_6bb4adeeb6_5aa40d202f.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Early_Blight\\leaf_001_b93f63df5f_f4bf4badec.jpg",
+    "label": "Tomato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Early_Blight\\leaf_001_b93f63df5f_f4bf4badec.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Early_Blight\\leaf_002_927ef8ba82_fc37dbd9eb.jpg",
+    "label": "Tomato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Early_Blight\\leaf_002_927ef8ba82_fc37dbd9eb.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Early_Blight\\leaf_003_1c1fe78e3f_42f11cdded.jpg",
+    "label": "Tomato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Early_Blight\\leaf_003_1c1fe78e3f_42f11cdded.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Early_Blight\\leaf_004_6cb6a349ff_7a027fc81a.jpg",
+    "label": "Tomato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Early_Blight\\leaf_004_6cb6a349ff_7a027fc81a.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Early_Blight\\leaf_005_59d4c45aa3_baea414e7e.jpg",
+    "label": "Tomato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Early_Blight\\leaf_005_59d4c45aa3_baea414e7e.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Early_Blight\\leaf_006_a44a088b47_6b61162103.jpg",
+    "label": "Tomato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Early_Blight\\leaf_006_a44a088b47_6b61162103.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Early_Blight\\leaf_007_0c8579eb41_643d496cea.jpg",
+    "label": "Tomato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Early_Blight\\leaf_007_0c8579eb41_643d496cea.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Early_Blight\\leaf_008_cca6b22d17_4df0a3ad37.jpg",
+    "label": "Tomato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Early_Blight\\leaf_008_cca6b22d17_4df0a3ad37.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Early_Blight\\leaf_009_2e6ed878d6_b2eb8b9002.jpg",
+    "label": "Tomato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Early_Blight\\leaf_009_2e6ed878d6_b2eb8b9002.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Early_Blight\\leaf_010_a283a30776_d8102a14cd.jpg",
+    "label": "Tomato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Early_Blight\\leaf_010_a283a30776_d8102a14cd.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Early_Blight\\leaf_011_c9c36dcc00_8dbcc0fef4.jpg",
+    "label": "Tomato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Early_Blight\\leaf_011_c9c36dcc00_8dbcc0fef4.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Early_Blight\\leaf_012_c52d69a927_ff2dc3324f.jpg",
+    "label": "Tomato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Early_Blight\\leaf_012_c52d69a927_ff2dc3324f.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Early_Blight\\leaf_013_cb0e703faa_3cc16e158d.jpg",
+    "label": "Tomato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Early_Blight\\leaf_013_cb0e703faa_3cc16e158d.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Early_Blight\\leaf_014_850a19edd4_b4f10f164c.jpg",
+    "label": "Tomato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Early_Blight\\leaf_014_850a19edd4_b4f10f164c.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Early_Blight\\leaf_015_2ccc6c9119_5daa3c6f69.jpg",
+    "label": "Tomato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Early_Blight\\leaf_015_2ccc6c9119_5daa3c6f69.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Early_Blight\\leaf_016_4c3f6bfa38_6de1a25be3.jpg",
+    "label": "Tomato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Early_Blight\\leaf_016_4c3f6bfa38_6de1a25be3.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Early_Blight\\leaf_017_65173435fc_2d36e3dcbc.jpg",
+    "label": "Tomato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Early_Blight\\leaf_017_65173435fc_2d36e3dcbc.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Early_Blight\\leaf_018_1c8be10e29_33345b3adf.jpg",
+    "label": "Tomato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Early_Blight\\leaf_018_1c8be10e29_33345b3adf.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Early_Blight\\leaf_019_44a0803c2e_2817bb5f22.jpg",
+    "label": "Tomato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Early_Blight\\leaf_019_44a0803c2e_2817bb5f22.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Early_Blight\\leaf_020_ed70748420_d79aab9f85.jpg",
+    "label": "Tomato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Early_Blight\\leaf_020_ed70748420_d79aab9f85.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Early_Blight\\leaf_021_80e0731599_4f1d00b53d.jpg",
+    "label": "Tomato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Early_Blight\\leaf_021_80e0731599_4f1d00b53d.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Early_Blight\\leaf_022_3c3a5895ae_35caa5710e.jpg",
+    "label": "Tomato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Early_Blight\\leaf_022_3c3a5895ae_35caa5710e.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Early_Blight\\leaf_023_dd847f5c27_bd54e1655a.jpg",
+    "label": "Tomato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Early_Blight\\leaf_023_dd847f5c27_bd54e1655a.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Early_Blight\\leaf_024_62ce261dc0_998ea7ed41.jpg",
+    "label": "Tomato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Early_Blight\\leaf_024_62ce261dc0_998ea7ed41.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Early_Blight\\leaf_025_f429c7cef4_9cda172b64.jpg",
+    "label": "Tomato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Early_Blight\\leaf_025_f429c7cef4_9cda172b64.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Early_Blight\\leaf_026_f59815212a_7f414450ab.jpg",
+    "label": "Tomato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Early_Blight\\leaf_026_f59815212a_7f414450ab.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Early_Blight\\leaf_027_3c85ffb72d_80267493a0.jpg",
+    "label": "Tomato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Early_Blight\\leaf_027_3c85ffb72d_80267493a0.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Early_Blight\\leaf_028_720dd76f4d_b85ec7ea82.jpg",
+    "label": "Tomato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Early_Blight\\leaf_028_720dd76f4d_b85ec7ea82.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Early_Blight\\leaf_029_b8a85badcb_2696bc18d0.jpg",
+    "label": "Tomato_Early_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Early_Blight\\leaf_029_b8a85badcb_2696bc18d0.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Late_Blight\\leaf_000_d311a09345_36ad2fc389.jpg",
+    "label": "Tomato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Late_Blight\\leaf_000_d311a09345_36ad2fc389.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Late_Blight\\leaf_001_f79850f8ad_39f1725951.jpg",
+    "label": "Tomato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Late_Blight\\leaf_001_f79850f8ad_39f1725951.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Late_Blight\\leaf_002_a3d360d993_f54569de85.jpg",
+    "label": "Tomato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Late_Blight\\leaf_002_a3d360d993_f54569de85.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Late_Blight\\leaf_003_c4b9685fdf_d3ddd18a01.jpg",
+    "label": "Tomato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Late_Blight\\leaf_003_c4b9685fdf_d3ddd18a01.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Late_Blight\\leaf_004_18790dc367_34421dfccd.jpg",
+    "label": "Tomato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Late_Blight\\leaf_004_18790dc367_34421dfccd.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Late_Blight\\leaf_005_5d531b0085_29d2661d5b.jpg",
+    "label": "Tomato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Late_Blight\\leaf_005_5d531b0085_29d2661d5b.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Late_Blight\\leaf_006_b8815f5b1f_d0dd27332f.jpg",
+    "label": "Tomato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Late_Blight\\leaf_006_b8815f5b1f_d0dd27332f.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Late_Blight\\leaf_007_d520b43ddd_7cbcad09b3.jpg",
+    "label": "Tomato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Late_Blight\\leaf_007_d520b43ddd_7cbcad09b3.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Late_Blight\\leaf_008_6e2a10f1fa_4b252c7561.jpg",
+    "label": "Tomato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Late_Blight\\leaf_008_6e2a10f1fa_4b252c7561.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Late_Blight\\leaf_009_02c1156b98_7a9434a55b.jpg",
+    "label": "Tomato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Late_Blight\\leaf_009_02c1156b98_7a9434a55b.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Late_Blight\\leaf_010_858c4124ee_8d22a62f40.jpg",
+    "label": "Tomato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Late_Blight\\leaf_010_858c4124ee_8d22a62f40.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Late_Blight\\leaf_011_dc9116921c_b64d04dc3e.jpg",
+    "label": "Tomato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Late_Blight\\leaf_011_dc9116921c_b64d04dc3e.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Late_Blight\\leaf_012_0419a5c470_b772ec859b.jpg",
+    "label": "Tomato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Late_Blight\\leaf_012_0419a5c470_b772ec859b.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Late_Blight\\leaf_013_5a799f8e6b_3b1a71f288.jpg",
+    "label": "Tomato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Late_Blight\\leaf_013_5a799f8e6b_3b1a71f288.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Late_Blight\\leaf_014_e6d77f0ac8_2f0f946761.jpg",
+    "label": "Tomato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Late_Blight\\leaf_014_e6d77f0ac8_2f0f946761.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Late_Blight\\leaf_015_80805f5c0d_89c69e64e4.jpg",
+    "label": "Tomato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Late_Blight\\leaf_015_80805f5c0d_89c69e64e4.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Late_Blight\\leaf_016_b1949426e9_333d76170a.jpg",
+    "label": "Tomato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Late_Blight\\leaf_016_b1949426e9_333d76170a.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Late_Blight\\leaf_017_f8188d224b_c9affc2d40.jpg",
+    "label": "Tomato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Late_Blight\\leaf_017_f8188d224b_c9affc2d40.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Late_Blight\\leaf_018_b2c5209c5f_4037cc10c9.jpg",
+    "label": "Tomato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Late_Blight\\leaf_018_b2c5209c5f_4037cc10c9.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Late_Blight\\leaf_019_4b439b7f9a_7995417151.jpg",
+    "label": "Tomato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Late_Blight\\leaf_019_4b439b7f9a_7995417151.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Late_Blight\\leaf_020_61f0427862_025c4f78ab.jpg",
+    "label": "Tomato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Late_Blight\\leaf_020_61f0427862_025c4f78ab.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Late_Blight\\leaf_021_0eb7f20ad1_b73410fdf0.jpg",
+    "label": "Tomato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Late_Blight\\leaf_021_0eb7f20ad1_b73410fdf0.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Late_Blight\\leaf_022_7ab830616b_c6ef0f8c09.jpg",
+    "label": "Tomato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Late_Blight\\leaf_022_7ab830616b_c6ef0f8c09.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Late_Blight\\leaf_023_6b14c6ea45_5e0e5074ce.jpg",
+    "label": "Tomato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Late_Blight\\leaf_023_6b14c6ea45_5e0e5074ce.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Late_Blight\\leaf_024_c70173064a_41cdd21a68.jpg",
+    "label": "Tomato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Late_Blight\\leaf_024_c70173064a_41cdd21a68.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Late_Blight\\leaf_025_43d49ba1e3_b6cb4f0189.jpg",
+    "label": "Tomato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Late_Blight\\leaf_025_43d49ba1e3_b6cb4f0189.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Late_Blight\\leaf_026_1d42d5a4ad_52a0492db0.jpg",
+    "label": "Tomato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Late_Blight\\leaf_026_1d42d5a4ad_52a0492db0.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Late_Blight\\leaf_027_dfdffaf47a_678a41ba80.jpg",
+    "label": "Tomato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Late_Blight\\leaf_027_dfdffaf47a_678a41ba80.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Late_Blight\\leaf_028_f3e87b5900_dbe79742e5.jpg",
+    "label": "Tomato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Late_Blight\\leaf_028_f3e87b5900_dbe79742e5.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Late_Blight\\leaf_029_879e485120_31db61a324.jpg",
+    "label": "Tomato_Late_Blight",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Late_Blight\\leaf_029_879e485120_31db61a324.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Leaf_Mold\\leaf_000_71fc1a07f8_6babae7192.jpg",
+    "label": "Tomato_Leaf_Mold",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Leaf_Mold\\leaf_000_71fc1a07f8_6babae7192.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Leaf_Mold\\leaf_001_261d66e340_c239f89693.jpg",
+    "label": "Tomato_Leaf_Mold",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Leaf_Mold\\leaf_001_261d66e340_c239f89693.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Leaf_Mold\\leaf_002_b8e4c4f093_2e33651364.jpg",
+    "label": "Tomato_Leaf_Mold",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Leaf_Mold\\leaf_002_b8e4c4f093_2e33651364.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Leaf_Mold\\leaf_003_d48e409ad7_3a1557a4c1.jpg",
+    "label": "Tomato_Leaf_Mold",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Leaf_Mold\\leaf_003_d48e409ad7_3a1557a4c1.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Leaf_Mold\\leaf_004_6efe586f60_f5b424008c.jpg",
+    "label": "Tomato_Leaf_Mold",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Leaf_Mold\\leaf_004_6efe586f60_f5b424008c.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Leaf_Mold\\leaf_005_47cc1ebac4_8bcfac5961.jpg",
+    "label": "Tomato_Leaf_Mold",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Leaf_Mold\\leaf_005_47cc1ebac4_8bcfac5961.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Leaf_Mold\\leaf_006_6d95e5f526_b33ffa6889.jpg",
+    "label": "Tomato_Leaf_Mold",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Leaf_Mold\\leaf_006_6d95e5f526_b33ffa6889.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Leaf_Mold\\leaf_007_6dbedbf975_57e52015e6.jpg",
+    "label": "Tomato_Leaf_Mold",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Leaf_Mold\\leaf_007_6dbedbf975_57e52015e6.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Leaf_Mold\\leaf_008_af1e009feb_bbbc0c80f0.jpg",
+    "label": "Tomato_Leaf_Mold",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Leaf_Mold\\leaf_008_af1e009feb_bbbc0c80f0.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Leaf_Mold\\leaf_009_a10c1de0d0_e73c87bcdf.jpg",
+    "label": "Tomato_Leaf_Mold",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Leaf_Mold\\leaf_009_a10c1de0d0_e73c87bcdf.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Leaf_Mold\\leaf_010_501cd3cd8a_936c3c6c57.jpg",
+    "label": "Tomato_Leaf_Mold",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Leaf_Mold\\leaf_010_501cd3cd8a_936c3c6c57.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Leaf_Mold\\leaf_011_da5704117c_6ea35a3d77.jpg",
+    "label": "Tomato_Leaf_Mold",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Leaf_Mold\\leaf_011_da5704117c_6ea35a3d77.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Leaf_Mold\\leaf_012_ca20260e12_889c318b94.jpg",
+    "label": "Tomato_Leaf_Mold",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Leaf_Mold\\leaf_012_ca20260e12_889c318b94.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Leaf_Mold\\leaf_013_71da3a4f1d_2c2b768aa6.jpg",
+    "label": "Tomato_Leaf_Mold",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Leaf_Mold\\leaf_013_71da3a4f1d_2c2b768aa6.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Leaf_Mold\\leaf_014_8babba2120_97ec58c8e6.jpg",
+    "label": "Tomato_Leaf_Mold",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Leaf_Mold\\leaf_014_8babba2120_97ec58c8e6.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Leaf_Mold\\leaf_015_f66168ffe5_b4e6cd6379.jpg",
+    "label": "Tomato_Leaf_Mold",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Leaf_Mold\\leaf_015_f66168ffe5_b4e6cd6379.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Leaf_Mold\\leaf_016_9debbd0218_7b605c000d.jpg",
+    "label": "Tomato_Leaf_Mold",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Leaf_Mold\\leaf_016_9debbd0218_7b605c000d.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Leaf_Mold\\leaf_017_279e7b59f6_aaf6d9d6a0.jpg",
+    "label": "Tomato_Leaf_Mold",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Leaf_Mold\\leaf_017_279e7b59f6_aaf6d9d6a0.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Leaf_Mold\\leaf_018_ce7afc2464_463425e7ed.jpg",
+    "label": "Tomato_Leaf_Mold",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Leaf_Mold\\leaf_018_ce7afc2464_463425e7ed.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Leaf_Mold\\leaf_019_73873fa5e0_c20456eb6e.jpg",
+    "label": "Tomato_Leaf_Mold",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Leaf_Mold\\leaf_019_73873fa5e0_c20456eb6e.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Leaf_Mold\\leaf_020_1eecb2448d_5d5acd6a0b.jpg",
+    "label": "Tomato_Leaf_Mold",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Leaf_Mold\\leaf_020_1eecb2448d_5d5acd6a0b.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Leaf_Mold\\leaf_021_dd407e03ce_37ad2df541.jpg",
+    "label": "Tomato_Leaf_Mold",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Leaf_Mold\\leaf_021_dd407e03ce_37ad2df541.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Leaf_Mold\\leaf_022_94fa95c17c_1e726c0afc.jpg",
+    "label": "Tomato_Leaf_Mold",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Leaf_Mold\\leaf_022_94fa95c17c_1e726c0afc.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Leaf_Mold\\leaf_023_7de65c419e_d889138849.jpg",
+    "label": "Tomato_Leaf_Mold",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Leaf_Mold\\leaf_023_7de65c419e_d889138849.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Leaf_Mold\\leaf_024_a5b28fa347_1be7a6413d.jpg",
+    "label": "Tomato_Leaf_Mold",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Leaf_Mold\\leaf_024_a5b28fa347_1be7a6413d.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Leaf_Mold\\leaf_025_38a0765ab8_65b0148987.jpg",
+    "label": "Tomato_Leaf_Mold",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Leaf_Mold\\leaf_025_38a0765ab8_65b0148987.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Leaf_Mold\\leaf_026_d4a47c3512_11a459e89f.jpg",
+    "label": "Tomato_Leaf_Mold",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Leaf_Mold\\leaf_026_d4a47c3512_11a459e89f.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Leaf_Mold\\leaf_027_477861334e_fbcff424cb.jpg",
+    "label": "Tomato_Leaf_Mold",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Leaf_Mold\\leaf_027_477861334e_fbcff424cb.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Leaf_Mold\\leaf_028_95168931bf_9c1b4417de.jpg",
+    "label": "Tomato_Leaf_Mold",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Leaf_Mold\\leaf_028_95168931bf_9c1b4417de.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Leaf_Mold\\leaf_029_c5322d7d5e_21937436eb.jpg",
+    "label": "Tomato_Leaf_Mold",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Leaf_Mold\\leaf_029_c5322d7d5e_21937436eb.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Septoria_Leaf_Spot\\leaf_000_f654365716_ee8b0d9adb.jpg",
+    "label": "Tomato_Septoria_Leaf_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Septoria_Leaf_Spot\\leaf_000_f654365716_ee8b0d9adb.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Septoria_Leaf_Spot\\leaf_001_714220e716_6b6d21ef75.jpg",
+    "label": "Tomato_Septoria_Leaf_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Septoria_Leaf_Spot\\leaf_001_714220e716_6b6d21ef75.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Septoria_Leaf_Spot\\leaf_002_22c7c40186_eb204d3cc5.jpg",
+    "label": "Tomato_Septoria_Leaf_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Septoria_Leaf_Spot\\leaf_002_22c7c40186_eb204d3cc5.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Septoria_Leaf_Spot\\leaf_003_5f6d552cfc_ece795ae7d.jpg",
+    "label": "Tomato_Septoria_Leaf_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Septoria_Leaf_Spot\\leaf_003_5f6d552cfc_ece795ae7d.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Septoria_Leaf_Spot\\leaf_004_486a30f11c_3ac1f6aa3e.jpg",
+    "label": "Tomato_Septoria_Leaf_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Septoria_Leaf_Spot\\leaf_004_486a30f11c_3ac1f6aa3e.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Septoria_Leaf_Spot\\leaf_005_2f76a37c2c_d7c510f7f9.jpg",
+    "label": "Tomato_Septoria_Leaf_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Septoria_Leaf_Spot\\leaf_005_2f76a37c2c_d7c510f7f9.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Septoria_Leaf_Spot\\leaf_006_a2f041692e_e53eccd6ed.jpg",
+    "label": "Tomato_Septoria_Leaf_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Septoria_Leaf_Spot\\leaf_006_a2f041692e_e53eccd6ed.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Septoria_Leaf_Spot\\leaf_007_fdca921e55_1baff20d28.jpg",
+    "label": "Tomato_Septoria_Leaf_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Septoria_Leaf_Spot\\leaf_007_fdca921e55_1baff20d28.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Septoria_Leaf_Spot\\leaf_008_64ff24200b_61f89b8f34.jpg",
+    "label": "Tomato_Septoria_Leaf_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Septoria_Leaf_Spot\\leaf_008_64ff24200b_61f89b8f34.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Septoria_Leaf_Spot\\leaf_009_7bacecc0ab_6f0f018185.jpg",
+    "label": "Tomato_Septoria_Leaf_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Septoria_Leaf_Spot\\leaf_009_7bacecc0ab_6f0f018185.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Septoria_Leaf_Spot\\leaf_010_23648d92a1_122a89fe41.jpg",
+    "label": "Tomato_Septoria_Leaf_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Septoria_Leaf_Spot\\leaf_010_23648d92a1_122a89fe41.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Septoria_Leaf_Spot\\leaf_011_4f3ec9c013_145324c875.jpg",
+    "label": "Tomato_Septoria_Leaf_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Septoria_Leaf_Spot\\leaf_011_4f3ec9c013_145324c875.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Septoria_Leaf_Spot\\leaf_012_23735870ec_c35fc3d4d5.jpg",
+    "label": "Tomato_Septoria_Leaf_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Septoria_Leaf_Spot\\leaf_012_23735870ec_c35fc3d4d5.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Septoria_Leaf_Spot\\leaf_013_7dab37eca4_1ef2336bdd.jpg",
+    "label": "Tomato_Septoria_Leaf_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Septoria_Leaf_Spot\\leaf_013_7dab37eca4_1ef2336bdd.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Septoria_Leaf_Spot\\leaf_014_6b2634c203_d18f2ef21d.jpg",
+    "label": "Tomato_Septoria_Leaf_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Septoria_Leaf_Spot\\leaf_014_6b2634c203_d18f2ef21d.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Septoria_Leaf_Spot\\leaf_015_5d45e4a910_e40a1f2c1e.jpg",
+    "label": "Tomato_Septoria_Leaf_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Septoria_Leaf_Spot\\leaf_015_5d45e4a910_e40a1f2c1e.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Septoria_Leaf_Spot\\leaf_016_70aa3870f3_b00306808e.jpg",
+    "label": "Tomato_Septoria_Leaf_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Septoria_Leaf_Spot\\leaf_016_70aa3870f3_b00306808e.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Septoria_Leaf_Spot\\leaf_017_c6a9be8b10_cc732a2588.jpg",
+    "label": "Tomato_Septoria_Leaf_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Septoria_Leaf_Spot\\leaf_017_c6a9be8b10_cc732a2588.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Septoria_Leaf_Spot\\leaf_018_1a9cd75ebf_c376eb999f.jpg",
+    "label": "Tomato_Septoria_Leaf_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Septoria_Leaf_Spot\\leaf_018_1a9cd75ebf_c376eb999f.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Septoria_Leaf_Spot\\leaf_019_2277278787_7e4ae7f5f7.jpg",
+    "label": "Tomato_Septoria_Leaf_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Septoria_Leaf_Spot\\leaf_019_2277278787_7e4ae7f5f7.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Septoria_Leaf_Spot\\leaf_020_7316789e66_449e62add6.jpg",
+    "label": "Tomato_Septoria_Leaf_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Septoria_Leaf_Spot\\leaf_020_7316789e66_449e62add6.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Septoria_Leaf_Spot\\leaf_021_f5a098f3d2_3e0a0cd50e.jpg",
+    "label": "Tomato_Septoria_Leaf_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Septoria_Leaf_Spot\\leaf_021_f5a098f3d2_3e0a0cd50e.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Septoria_Leaf_Spot\\leaf_022_dcbdf9be10_fff943025d.jpg",
+    "label": "Tomato_Septoria_Leaf_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Septoria_Leaf_Spot\\leaf_022_dcbdf9be10_fff943025d.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Septoria_Leaf_Spot\\leaf_023_dc5670edc5_3acd3be6f5.jpg",
+    "label": "Tomato_Septoria_Leaf_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Septoria_Leaf_Spot\\leaf_023_dc5670edc5_3acd3be6f5.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Septoria_Leaf_Spot\\leaf_024_e0437046ab_d702e57299.jpg",
+    "label": "Tomato_Septoria_Leaf_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Septoria_Leaf_Spot\\leaf_024_e0437046ab_d702e57299.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Septoria_Leaf_Spot\\leaf_025_c8c6f28941_32884baa4d.jpg",
+    "label": "Tomato_Septoria_Leaf_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Septoria_Leaf_Spot\\leaf_025_c8c6f28941_32884baa4d.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Septoria_Leaf_Spot\\leaf_026_3277996ca4_f1c864fd13.jpg",
+    "label": "Tomato_Septoria_Leaf_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Septoria_Leaf_Spot\\leaf_026_3277996ca4_f1c864fd13.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Septoria_Leaf_Spot\\leaf_027_6565f061ce_9f8e325fff.jpg",
+    "label": "Tomato_Septoria_Leaf_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Septoria_Leaf_Spot\\leaf_027_6565f061ce_9f8e325fff.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Septoria_Leaf_Spot\\leaf_028_0cc2ed66ab_c0697f0dcd.jpg",
+    "label": "Tomato_Septoria_Leaf_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Septoria_Leaf_Spot\\leaf_028_0cc2ed66ab_c0697f0dcd.jpg",
+    "type": "original"
+  },
+  {
+    "destination_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_augmented\\Tomato_Septoria_Leaf_Spot\\leaf_029_f1102b320c_c0d98ea275.jpg",
+    "label": "Tomato_Septoria_Leaf_Spot",
+    "source_path": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_cleaned\\Tomato_Septoria_Leaf_Spot\\leaf_029_f1102b320c_c0d98ea275.jpg",
+    "type": "original"
+  }
+]

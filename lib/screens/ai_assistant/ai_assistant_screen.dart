@@ -1,5 +1,6 @@
 import 'dart:io';
 import 'package:agro_spray/services/api_service.dart';
+import 'package:agro_spray/services/local_storage_service.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 
@@ -13,13 +14,101 @@ class AIAssistantScreen extends StatefulWidget {
 class _AIAssistantScreenState extends State<AIAssistantScreen> with SingleTickerProviderStateMixin {
   final TextEditingController _messageController = TextEditingController();
   final ScrollController _scrollController = ScrollController();
-  final List<Map<String, dynamic>> _messages = [
-    {
-      'text': 'Hello! I am your AI Farmer Assistant. Ask me anything about crop diseases, fertilizers, or Rover controls.',
-      'isUser': false,
-      'time': 'Just now',
-    }
-  ];
+  
+  static const Map<String, Map<String, String>> _uiTranslations = {
+    'en-IN': {
+      'welcome': 'Hello! I am your AI Farmer Assistant. Ask me anything about crop diseases, fertilizers, or Rover controls.',
+      'hint': 'Type message or ask AI...',
+      'scan_title': '📷 Scan Crop Disease',
+      'scan_subtitle': 'Take leaf photo, analyze severity & automate spraying',
+      'rover_status': '🚜 Rover status',
+      'connected': 'Connected (WiFi)',
+      'disconnected': 'Disconnected',
+    },
+    'hi-IN': {
+      'welcome': 'नमस्ते! मैं आपका एआई किसान सहायक हूँ। मुझसे फसल के रोगों, उर्वरकों या रोवर नियंत्रणों के बारे में कुछ भी पूछें।',
+      'hint': 'संदेश टाइप करें या एआई से पूछें...',
+      'scan_title': '📷 फसल रोग स्कैन करें',
+      'scan_subtitle': 'पत्ती का फोटो लें, संक्रमण की जांच करें और छिड़काव शुरू करें',
+      'rover_status': '🚜 रोवर की स्थिति',
+      'connected': 'कनेक्टेड (WiFi)',
+      'disconnected': 'डिस्कनेक्टेड',
+    },
+    'ta-IN': {
+      'welcome': 'வணக்கம்! நான் உங்கள் AI விவசாய உதவியாளர். பயிர் நோய்கள், உரங்கள் அல்லது ரோவர் கட்டுப்பாடுகள் பற்றி என்னிடம் எதையும் கேளுங்கள்.',
+      'hint': 'செய்தியைத் தட்டச்சு செய்யவும்...',
+      'scan_title': '📷 பயிர் நோயை ஸ்கேன் செய்க',
+      'scan_subtitle': 'இலை புகைப்படத்தை எடுக்கவும், தீவிரத்தை பகுப்பாய்வு செய்து தெளிப்பினை தானியங்குபடுத்தவும்',
+      'rover_status': '🚜 ரோவர் நிலை',
+      'connected': 'இணைக்கப்பட்டுள்ளது (WiFi)',
+      'disconnected': 'இணைக்கப்படவில்லை',
+    },
+    'te-IN': {
+      'welcome': 'నమస్తే! నేను మీ AI రైతు సహాయకుడిని. పంట తెగుళ్లు, ఎరువులు లేదా రోవర్ నియంత్రణల గురించి ఏదైనా అడగండి.',
+      'hint': 'సందేశాన్ని టైప్ చేయండి...',
+      'scan_title': '📷 పంట తెగులు స్కాన్ చేయండి',
+      'scan_subtitle': 'ఆకు ఫోటో తీయండి, తీవ్రతను విశ్లేషించి స్ప్రే చేయండి',
+      'rover_status': '🚜 రోవర్ స్థితి',
+      'connected': 'కనెక్ట్ చేయబడింది (WiFi)',
+      'disconnected': 'డిస్కనెక్ట్ చేయబడింది',
+    },
+    'kn-IN': {
+      'welcome': 'ನಮಸ್ಕಾರ! ನಾನು ನಿಮ್ಮ AI ರೈತ ಸಹಾಯಕ. ಬೆಳೆ ರೋಗಗಳು, ರಸಗೊಬ್ಬರಗಳು ಅಥವಾ ರೋವರ್ ನಿಯಂತ್ರಣಗಳ ಬಗ್ಗೆ ಏನನ್ನಾದರೂ ಕೇಳಿ.',
+      'hint': 'ಸಂದೇಶವನ್ನು ಟೈಪ್ ಮಾಡಿ...',
+      'scan_title': '📷 ಬೆಳೆ ರೋಗ ಸ್ಕ್ಯಾನ್ ಮಾಡಿ',
+      'scan_subtitle': 'ಎಲೆಯ ಫೋಟೋ ತೆಗೆಯಿರಿ, ತೀವ್ರತೆಯನ್ನು ವಿಶ್ಲೇಷಿಸಿ ಮತ್ತು ಸಿಂಪರಣೆ ಸ್ವಯಂಚಾಲิตಗೊಳಿಸಿ',
+      'rover_status': '🚜 ರೋವರ್ ಸ್ಥಿತಿ',
+      'connected': 'ಸಂಪರ್ಕಗೊಂಡಿದೆ (WiFi)',
+      'disconnected': 'ಸಂಪರ್ಕ ಕಡಿತಗೊಂಡಿದೆ',
+    },
+    'ml-IN': {
+      'welcome': 'ഹലോ! ഞാൻ നിങ്ങളുടെ AI കർഷക സഹായിയാണ്. വിള രോഗങ്ങൾ, വളങ്ങൾ അല്ലെങ്കിൽ റോവർ നിയന്ത്രണങ്ങൾ എന്നിവയെക്കുറിച്ച് ചോദിക്കുക.',
+      'hint': 'സന്ദേശം ടൈപ്പ് ചെയ്യുക...',
+      'scan_title': '📷 വിള രോഗം സ്കാൻ ചെയ്യുക',
+      'scan_subtitle': 'ഇലയുടെ ഫോട്ടോ എടുക്കുക, അണുബാധ വിലയിరుത്തുക, തളിക്കൽ നടത്തുക',
+      'rover_status': '🚜 റോവർ നില',
+      'connected': 'കണക്റ്റ് ചെയ്‌തിരിക്കുന്നു (WiFi)',
+      'disconnected': 'വിച്ഛേദിക്കപ്പെട്ടു',
+    },
+    'mr-IN': {
+      'welcome': 'नमस्कार! मी तुमचा AI शेतकरी सहाय्यक आहे. मला पिकांचे रोग, खते किंवा रोवर नियंत्रणांबद्दल काहीही विचारा.',
+      'hint': 'संदेश टाईप करा...',
+      'scan_title': '📷 पीक रोग स्कॅन करा',
+      'scan_subtitle': 'पानाचा फोटो घ्या, तीव्रतेचे विश्लेषण करा आणि फवारणी सुरू करा',
+      'rover_status': '🚜 रोव्हरची स्थिती',
+      'connected': 'कनेक्ट केलेले (WiFi)',
+      'disconnected': 'डिस्कनेक्ट केलेले',
+    },
+    'gu-IN': {
+      'welcome': 'નમસ્તે! હું તમારો AI ખેડૂત સહાયક છું. મને પાકના રોગો, ખાતરો અથવા રોવર નિયંત્રણો વિશે કંઈપણ પૂછો.',
+      'hint': 'સંદેશ ટાઇપ કરો...',
+      'scan_title': '📷 પાક રોગ સ્કેન કરો',
+      'scan_subtitle': 'પાંદડાનો ફોટો લો, ગંભીરતા તપાસો અને છંટકાવ શરૂ કરો',
+      'rover_status': '🚜 રોવરની સ્થિતિ',
+      'connected': 'કનેક્ટેડ (WiFi)',
+      'disconnected': 'ડિસ્કનેક્ટેડ',
+    },
+    'bn-IN': {
+      'welcome': 'হ্যালো! আমি আপনার AI কৃষক সহকারী। ফসলের রোগ, সার বা রোভার নিয়ন্ত্রণ সম্পর্কে আমাকে কিছু জিজ্ঞাসা করুন।',
+      'hint': 'বার্তা টাইপ করুন...',
+      'scan_title': '📷 ফসল রোগ স্ক্যান করুন',
+      'scan_subtitle': 'পাতার ছবি নিন, সংক্রমণ বিশ্লেষণ করুন এবং স্প্রে করুন',
+      'rover_status': '🚜 রোভারের অবস্থা',
+      'connected': 'সংযুক্ত (WiFi)',
+      'disconnected': 'বিচ্ছিন্ন',
+    },
+    'pa-IN': {
+      'welcome': 'ਸਤਿ ਸ੍ਰੀ ਅਕਾਲ! ਮੈਂ ਤੁਹਾਡਾ ਏਆਈ ਕਿਸਾਨ ਸਹਾਇਕ ਹਾਂ। ਫਸਲਾਂ ਦੀਆਂ ਬਿਮਾਰੀਆਂ, ਖਾਦਾਂ ਜਾਂ ਰੋਵਰ ਨਿਯੰਤਰਣ ਬਾਰੇ ਕੁਝ ਵੀ ਪੁੱਛੋ।',
+      'hint': 'ਸੰਦੇਸ਼ ਲਿਖੋ...',
+      'scan_title': '📷 ਫਸਲ ਦੀ ਬਿਮਾਰੀ ਸਕੈਨ ਕਰੋ',
+      'scan_subtitle': 'ਪੱਤੇ ਦੀ ਫੋਟੋ ਲਓ, ਗੰਭੀਰਤਾ ਦਾ ਵਿਸ਼ਲੇਸ਼ਣ ਕਰੋ ਅਤੇ ਸਪਰੇਅ ਸ਼ੁਰੂ ਕਰੋ',
+      'rover_status': '🚜 ਰੋਵਰ ਦੀ ਸਥਿਤੀ',
+      'connected': 'ਕਨੈਕਟਡ (WiFi)',
+      'disconnected': 'ਡਿਸਕਨੈਕਟਡ',
+    },
+  };
+
+  late final List<Map<String, dynamic>> _messages;
 
   bool _isLoading = false;
   bool _isRecording = false;
@@ -48,11 +137,29 @@ class _AIAssistantScreenState extends State<AIAssistantScreen> with SingleTicker
   @override
   void initState() {
     super.initState();
+    _messages = [
+      {
+        'text': _getTranslation('welcome', 'en-IN'),
+        'isUser': false,
+        'time': 'Just now',
+      }
+    ];
     _waveController = AnimationController(
       vsync: this,
       duration: const Duration(milliseconds: 1000),
     );
+    
+    // Load saved backend URL
+    final savedUrl = LocalStorageService.instance.getBackendUrl();
+    if (savedUrl != null) {
+      ApiService.instance.updateBackendUrl(savedUrl);
+    }
+    
     _fetchRoverStatus();
+  }
+
+  String _getTranslation(String key, String langCode) {
+    return _uiTranslations[langCode]?[key] ?? _uiTranslations['en-IN']![key]!;
   }
 
   @override
@@ -101,7 +208,7 @@ class _AIAssistantScreenState extends State<AIAssistantScreen> with SingleTicker
     });
     _scrollToBottom();
 
-    final reply = await ApiService.instance.sendChatMessage(text);
+    final reply = await ApiService.instance.sendChatMessage(text, _selectedLanguage);
     
     if (mounted) {
       setState(() {
@@ -387,6 +494,62 @@ class _AIAssistantScreenState extends State<AIAssistantScreen> with SingleTicker
     return _languages.firstWhere((lang) => lang['code'] == code)['name'] ?? 'English';
   }
 
+  void _showBackendSettingsDialog() {
+    final controller = TextEditingController(text: ApiService.backendBaseUrl);
+    showDialog(
+      context: context,
+      builder: (context) {
+        return AlertDialog(
+          backgroundColor: const Color(0xFF111A12),
+          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(24)),
+          title: const Text('Backend Connection Settings', style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold)),
+          content: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              const Text(
+                'Enter the local IP address of your host machine running the FastAPI backend so your physical phone can connect:',
+                style: TextStyle(color: Colors.grey, fontSize: 13),
+              ),
+              const SizedBox(height: 16),
+              TextField(
+                controller: controller,
+                style: const TextStyle(color: Colors.white),
+                decoration: const InputDecoration(
+                  labelText: 'FastAPI Backend URL',
+                  labelStyle: TextStyle(color: Colors.green),
+                  hintText: 'e.g. http://192.168.1.10:8000',
+                  hintStyle: TextStyle(color: Colors.grey),
+                ),
+              ),
+            ],
+          ),
+          actions: [
+            TextButton(
+              onPressed: () => Navigator.pop(context),
+              child: const Text('Cancel', style: TextStyle(color: Colors.grey)),
+            ),
+            ElevatedButton(
+              style: ElevatedButton.styleFrom(backgroundColor: Colors.green),
+              onPressed: () async {
+                final url = controller.text.trim();
+                if (url.isNotEmpty) {
+                  ApiService.instance.updateBackendUrl(url);
+                  await LocalStorageService.instance.saveBackendUrl(url);
+                  Navigator.pop(context);
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    SnackBar(content: Text('Backend URL set to: $url')),
+                  );
+                  _fetchRoverStatus();
+                }
+              },
+              child: const Text('Save'),
+            ),
+          ],
+        );
+      },
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Theme(
@@ -425,11 +588,27 @@ class _AIAssistantScreenState extends State<AIAssistantScreen> with SingleTicker
               }).toList(),
               onChanged: (val) {
                 if (val != null) {
-                  setState(() => _selectedLanguage = val);
+                  setState(() {
+                    _selectedLanguage = val;
+                    // Translate initial welcome greeting instantly in list
+                    if (_messages.length == 1 && !_messages[0]['isUser']) {
+                      _messages[0]['text'] = _getTranslation('welcome', val);
+                    }
+                  });
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    SnackBar(
+                      content: Text('Language changed to: ${_getLanguageName(val)}'),
+                      duration: const Duration(seconds: 1),
+                    ),
+                  );
                 }
               },
             ),
-            const SizedBox(width: 8),
+            IconButton(
+              icon: const Icon(Icons.settings_outlined, color: Colors.green),
+              onPressed: _showBackendSettingsDialog,
+            ),
+            const SizedBox(width: 4),
           ],
         ),
         body: Column(
@@ -454,27 +633,27 @@ class _AIAssistantScreenState extends State<AIAssistantScreen> with SingleTicker
                         borderRadius: BorderRadius.circular(16),
                         border: Border.all(color: Colors.green.withOpacity(0.3)),
                       ),
-                      child: const Row(
+                      child: Row(
                         children: [
-                          Icon(Icons.camera_alt_rounded, color: Colors.green, size: 40),
-                          SizedBox(width: 16),
+                          const Icon(Icons.camera_alt_rounded, color: Colors.green, size: 40),
+                          const SizedBox(width: 16),
                           Expanded(
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
-                                  '📷 Scan Crop Disease',
-                                  style: TextStyle(color: Colors.white, fontSize: 16, fontWeight: FontWeight.bold),
+                                  _getTranslation('scan_title', _selectedLanguage),
+                                  style: const TextStyle(color: Colors.white, fontSize: 16, fontWeight: FontWeight.bold),
                                 ),
-                                SizedBox(height: 4),
+                                const SizedBox(height: 4),
                                 Text(
-                                  'Take leaf photo, analyze severity & automate spraying',
-                                  style: TextStyle(color: Colors.grey, fontSize: 12),
+                                  _getTranslation('scan_subtitle', _selectedLanguage),
+                                  style: const TextStyle(color: Colors.grey, fontSize: 12),
                                 ),
                               ],
                             ),
                           ),
-                          Icon(Icons.arrow_forward_ios_rounded, color: Colors.green, size: 16),
+                          const Icon(Icons.arrow_forward_ios_rounded, color: Colors.green, size: 16),
                         ],
                       ),
                     ),
@@ -501,10 +680,18 @@ class _AIAssistantScreenState extends State<AIAssistantScreen> with SingleTicker
                             Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
-                                const Text('🚜 Rover status', style: TextStyle(fontSize: 13, fontWeight: FontWeight.bold)),
                                 Text(
-                                  _roverConnected ? 'Connected (WiFi)' : 'Disconnected',
-                                  style: TextStyle(fontSize: 11, color: _roverConnected ? Colors.green : Colors.red),
+                                  _getTranslation('rover_status', _selectedLanguage),
+                                  style: const TextStyle(fontSize: 13, fontWeight: FontWeight.bold),
+                                ),
+                                Text(
+                                  _roverConnected
+                                      ? _getTranslation('connected', _selectedLanguage)
+                                      : _getTranslation('disconnected', _selectedLanguage),
+                                  style: TextStyle(
+                                    fontSize: 11,
+                                    color: _roverConnected ? Colors.green : Colors.red,
+                                  ),
                                 ),
                               ],
                             ),
@@ -666,11 +853,11 @@ class _AIAssistantScreenState extends State<AIAssistantScreen> with SingleTicker
                             child: TextField(
                               controller: _messageController,
                               style: const TextStyle(color: Colors.white),
-                              decoration: const InputDecoration(
-                                hintText: 'Type message or ask AI...',
-                                hintStyle: TextStyle(color: Colors.grey),
+                              decoration: InputDecoration(
+                                hintText: _getTranslation('hint', _selectedLanguage),
+                                hintStyle: const TextStyle(color: Colors.grey),
                                 border: InputBorder.none,
-                                contentPadding: EdgeInsets.symmetric(horizontal: 8),
+                                contentPadding: const EdgeInsets.symmetric(horizontal: 8),
                               ),
                               onSubmitted: (_) => _sendMessage(),
                             ),

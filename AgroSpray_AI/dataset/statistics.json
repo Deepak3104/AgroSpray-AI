@@ -1,0 +1,13 @@
+{
+  "class_count": 3,
+  "class_distribution": {
+    "test": 24,
+    "train": 168,
+    "validation": 48
+  },
+  "imbalance_ratio": 7.0,
+  "max_images_per_class": 168,
+  "min_images_per_class": 24,
+  "root": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset",
+  "total_images": 240
+}

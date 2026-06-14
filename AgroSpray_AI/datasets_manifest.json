@@ -1,0 +1,8 @@
+{
+  "datasets": [
+    {
+      "name": "PlantVillage",
+      "source": "D:\\AgroSprayAI\\AgroSpray_AI\\mock_raw_data\\PlantVillage"
+    }
+  ]
+}

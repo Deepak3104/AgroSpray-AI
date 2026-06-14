@@ -1,0 +1,23 @@
+{
+  "duplicate_images_removed": 0,
+  "merged_root": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_merged",
+  "source_root": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_sources",
+  "statistics": {
+    "class_count": 8,
+    "class_distribution": {
+      "Pepper_Bacterial_Spot": 30,
+      "Pepper_Healthy": 1,
+      "Potato_Early_Blight": 30,
+      "Potato_Late_Blight": 30,
+      "Tomato_Early_Blight": 30,
+      "Tomato_Late_Blight": 30,
+      "Tomato_Leaf_Mold": 30,
+      "Tomato_Septoria_Leaf_Spot": 30
+    },
+    "imbalance_ratio": 30.0,
+    "max_images_per_class": 30,
+    "min_images_per_class": 1,
+    "root": "D:\\AgroSprayAI\\AgroSpray_AI\\dataset_merged",
+    "total_images": 211
+  }
+}

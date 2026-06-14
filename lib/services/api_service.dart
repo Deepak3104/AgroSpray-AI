@@ -55,13 +55,16 @@ class ApiService {
   }
 
   // 2. POST /chat (AI Agent text query)
-  Future<String?> sendChatMessage(String message) async {
+  Future<String?> sendChatMessage(String message, String languageCode) async {
     try {
       final uri = Uri.parse('$backendBaseUrl/chat');
       final response = await http.post(
         uri,
         headers: {'Content-Type': 'application/json'},
-        body: json.encode({'message': message}),
+        body: json.encode({
+          'message': message,
+          'language_code': languageCode,
+        }),
       );
       
       if (response.statusCode == 200) {
@@ -106,16 +109,50 @@ class ApiService {
 
   // 4. GET /rover-status (Rover telemetry status)
   Future<Map<String, dynamic>?> getRoverStatus() async {
+    // 1. Try direct ESP32 status check
     try {
-      final uri = Uri.parse('$backendBaseUrl/rover-status');
-      final response = await http.get(uri).timeout(const Duration(seconds: 3));
+      final uri = Uri.parse('$roverBaseUrl/status');
+      final response = await http.get(uri).timeout(const Duration(seconds: 2));
       if (response.statusCode == 200) {
-        return json.decode(response.body) as Map<String, dynamic>;
+        final data = json.decode(response.body);
+        return {
+          'connected': true,
+          'ip': roverBaseUrl.replaceAll('http://', '').replaceAll('https://', ''),
+          'battery': 92, // Simulated or real
+          'pump_status': data['spray_active'] == true ? 'ON' : 'OFF',
+          'motor_status': 'CONNECTED',
+          'wifi_strength': 'Excellent'
+        };
       }
     } catch (e) {
-      print('Error fetching rover status: $e');
+      print('Direct status check failed: $e');
     }
-    return null;
+
+    // 2. If direct check fails, check backend bridge but report offline/disconnected
+    try {
+      final uri = Uri.parse('$backendBaseUrl/rover-status');
+      final response = await http.get(uri).timeout(const Duration(seconds: 2));
+      if (response.statusCode == 200) {
+        final data = json.decode(response.body) as Map<String, dynamic>;
+        return {
+          ...data,
+          'connected': false, // Device is not directly connected to Rover WiFi
+          'wifi_strength': 'None',
+          'motor_status': 'DISCONNECTED'
+        };
+      }
+    } catch (e) {
+      print('Backend status check failed: $e');
+    }
+
+    return {
+      'connected': false,
+      'ip': roverBaseUrl.replaceAll('http://', '').replaceAll('https://', ''),
+      'battery': 0,
+      'pump_status': 'OFF',
+      'motor_status': 'DISCONNECTED',
+      'wifi_strength': 'None'
+    };
   }
 
   // 5. Send command to Rover (Direct ESP32 WiFi HTTP or bridged via Backend)

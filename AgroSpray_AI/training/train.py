@@ -43,7 +43,7 @@ def main() -> None:
             f"Prepared dataset folders not found at {train_dir} and {validation_dir}."
         )
 
-    train_generator, validation_generator = create_image_generators(train_dir, validation_dir)
+    train_generator, validation_generator = create_image_generators(args.dataset)
     class_names = save_class_names(train_generator.class_indices)
     model = build_model(num_classes=len(class_names))
 

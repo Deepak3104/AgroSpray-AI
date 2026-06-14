@@ -157,6 +157,7 @@ def load_pesticide_database(path: Path) -> Dict[str, dict]:
 
 
 def build_callbacks(output_dir: Path):
+    import tensorflow as tf
     return [
         tf.keras.callbacks.ModelCheckpoint(
             filepath=str(output_dir / "agrospray_model.keras"),

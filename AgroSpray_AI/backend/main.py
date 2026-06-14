@@ -70,13 +70,29 @@ class PredictionResponse(BaseModel):
 def startup_event() -> None:
     global model, class_names, pesticide_db, firestore_client, storage_bucket
     ensure_directories()
-    model = None
     try:
         class_names = load_class_names()
     except FileNotFoundError:
         class_names = []
+    try:
+        model = load_model(MODEL_PATH)
+        print("Model loaded successfully on startup.")
+    except Exception as e:
+        model = None
+        print(f"Model could not be loaded on startup: {e}")
     pesticide_db = load_pesticide_database(PESTICIDE_DB_PATH)
     _initialize_firebase_admin()
+    
+    import socket
+    try:
+        hostname = socket.gethostname()
+        local_ip = socket.gethostbyname(hostname)
+        print(f"\n=======================================================")
+        print(f"AgroSpray AI Backend Running!")
+        print(f"Local IP for Physical Devices: http://{local_ip}:8000")
+        print(f"=======================================================\n")
+    except Exception:
+        pass
 
 
 @app.get("/health")
@@ -150,7 +166,13 @@ def _lookup_recommendation(disease_name: str) -> Dict[str, str]:
         return pesticide_db[disease_name]
     if disease_name.replace(" ", "") in pesticide_db:
         return pesticide_db[disease_name.replace(" ", "")]
-    if disease_name.lower() == "healthy":
+        
+    disease_name_lower = disease_name.lower()
+    for db_key in pesticide_db:
+        if db_key.lower() in disease_name_lower:
+            return pesticide_db[db_key]
+            
+    if disease_name.lower() == "healthy" or "healthy" in disease_name_lower:
         return pesticide_db.get("Healthy", {
             "pesticide": "No pesticide required",
             "dosage": "N/A",
@@ -224,8 +246,33 @@ def _save_prediction_record(
     )
 
 
-def get_fallback_ai_response(prompt: str) -> str:
+def get_fallback_ai_response(prompt: str, language_code: str = "en-IN") -> str:
     prompt_lower = prompt.lower()
+    
+    # Check language prefix
+    if language_code.startswith("hi"):
+        if "tomato" in prompt_lower or "टमाटर" in prompt_lower:
+            return "आपकी टमाटर की फसल अगेती झुलसा (Early Blight) या लीफ मोल्ड से प्रभावित हो सकती है। मैंकोज़ेब या तांबे आधारित कवकनाशी का उपयोग करने की सलाह दी जाती है। पत्तों को सूखा रखें।"
+        elif "rice" in prompt_lower or "धान" in prompt_lower:
+            return "धान के ब्लास्ट या भूरे धब्बे के रोग का पता चला है। ट्राइसाइक्लाजोल या कार्बेन्डाजिम लगाएं। सही पानी का स्तर रखें।"
+        elif "fertilizer" in prompt_lower or "खाद" in prompt_lower:
+            return "वानस्पतिक विकास के लिए संतुलित एनपीके खाद (19-19-19) डालें। फूलों के लिए पोटेशियम बढ़ाएं।"
+        elif "blight" in prompt_lower or "झुलसा" in prompt_lower:
+            return "अगेती झुलसा के लिए मैंकोज़ेब (2g/L) या क्लोरोथालोनिल का छिड़काव करें। संक्रमित पत्तियों को हटा दें।"
+        else:
+            return "फसल की बारीकी से निगरानी करें। यदि समस्या बनी रहती है, तो जैविक नीम के तेल का छिड़काव करें।"
+            
+    elif language_code.startswith("ta"):
+        if "tomato" in prompt_lower or "தக்காளி" in prompt_lower:
+            return "உங்களது தக்காளி பயிர் இலை கருகல் நோயால் பாதிக்கப்படலாம். மேன்கோசெப் அல்லது தாமிரம் சார்ந்த பூஞ்சைக் கொல்லிகளைப் பயன்படுத்த பரிந்துரைக்கப்படுகிறது."
+        elif "rice" in prompt_lower or "நெல்" in prompt_lower:
+            return "நெல் குலை நோய் கண்டறியப்பட்டுள்ளது. ட்ரைசைக்ளசோல் அல்லது கார்பென்டாசிம் தெளிக்கவும். சரியான நீர் மட்டத்தை பராமரிக்கவும்."
+        elif "fertilizer" in prompt_lower or "உரம்" in prompt_lower:
+            return "பயிர் வளர்ச்சிக்கு சமச்சீரான NPK உரம் (19-19-19) பயன்படுத்தவும். பூக்கள் பூக்கும் போது பொட்டாசியம் மற்றும் பாஸ்பரஸ் அதிகரிக்கவும்."
+        else:
+            return "பயிரை உன்னிப்பாகக் கண்காணிக்கவும். மண்ணின் ஈரப்பதத்தை சரியாக வைக்கவும். வேப்ப எண்ணெய் கரைசலை தெளிக்கவும்."
+            
+    # Default English response
     if "tomato" in prompt_lower:
         return "Your tomato crop may be affected by Early Blight or Leaf Mold. It is recommended to use Mancozeb or copper-based fungicides. Keep leaves dry and ensure good ventilation."
     elif "rice" in prompt_lower:
@@ -238,10 +285,10 @@ def get_fallback_ai_response(prompt: str) -> str:
         return "I suggest monitoring the crop closely. Keep the soil moisture optimal and check under the leaves for any pest infestations. If symptoms persist, spray an organic neem oil solution."
 
 
-async def call_gemini(prompt: str) -> str:
+async def call_gemini(prompt: str, language_code: str = "en-IN") -> str:
     api_key = os.getenv("GEMINI_API_KEY")
     if not api_key:
-        return get_fallback_ai_response(prompt)
+        return get_fallback_ai_response(prompt, language_code)
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={api_key}"
     headers = {"Content-Type": "application/json"}
     payload = {
@@ -258,7 +305,7 @@ async def call_gemini(prompt: str) -> str:
                 return data["candidates"][0]["content"]["parts"][0]["text"]
     except Exception:
         pass
-    return get_fallback_ai_response(prompt)
+    return get_fallback_ai_response(prompt, language_code)
 
 
 async def sarvam_stt(audio_bytes: bytes, language_code: str) -> str:
@@ -312,12 +359,25 @@ async def sarvam_tts(text: str, language_code: str) -> str:
 
 @app.post("/detect")
 async def detect(image: UploadFile = File(...)):
+    global model, class_names
     upload_dir = UPLOAD_DIR
     upload_dir.mkdir(parents=True, exist_ok=True)
     file_suffix = Path(image.filename or "leaf.jpg").suffix or ".jpg"
     saved_path = upload_dir / f"{uuid.uuid4().hex}{file_suffix}"
     content = await image.read()
     saved_path.write_bytes(content)
+
+    if model is None:
+        try:
+            model = load_model(MODEL_PATH)
+        except Exception:
+            pass
+            
+    if not class_names:
+        try:
+            class_names = load_class_names()
+        except Exception:
+            pass
 
     disease_name = "Tomato Early Blight"
     confidence = 0.88
@@ -358,11 +418,33 @@ async def detect(image: UploadFile = File(...)):
 
 class ChatMessage(BaseModel):
     message: str
+    language_code: str = "en-IN"
 
 
 @app.post("/chat")
 async def chat(request: ChatMessage):
-    response_text = await call_gemini(request.message)
+    lang_name = "English"
+    if request.language_code == "hi-IN":
+        lang_name = "Hindi"
+    elif request.language_code == "ta-IN":
+        lang_name = "Tamil"
+    elif request.language_code == "te-IN":
+        lang_name = "Telugu"
+    elif request.language_code == "kn-IN":
+        lang_name = "Kannada"
+    elif request.language_code == "ml-IN":
+        lang_name = "Malayalam"
+    elif request.language_code == "mr-IN":
+        lang_name = "Marathi"
+    elif request.language_code == "gu-IN":
+        lang_name = "Gujarati"
+    elif request.language_code == "bn-IN":
+        lang_name = "Bengali"
+    elif request.language_code == "pa-IN":
+        lang_name = "Punjabi"
+        
+    system_prompt = f"You are a helpful AI Farmer Assistant. Please respond in the language: {lang_name} only. Prompt: {request.message}"
+    response_text = await call_gemini(system_prompt, request.language_code)
     return {"response": response_text}
 
 
@@ -370,7 +452,29 @@ async def chat(request: ChatMessage):
 async def voice_chat(audio: UploadFile = File(...), language_code: str = "en-IN"):
     content = await audio.read()
     transcript = await sarvam_stt(content, language_code)
-    response_text = await call_gemini(transcript)
+    
+    lang_name = "English"
+    if language_code == "hi-IN":
+        lang_name = "Hindi"
+    elif language_code == "ta-IN":
+        lang_name = "Tamil"
+    elif language_code == "te-IN":
+        lang_name = "Telugu"
+    elif language_code == "kn-IN":
+        lang_name = "Kannada"
+    elif language_code == "ml-IN":
+        lang_name = "Malayalam"
+    elif language_code == "mr-IN":
+        lang_name = "Marathi"
+    elif language_code == "gu-IN":
+        lang_name = "Gujarati"
+    elif language_code == "bn-IN":
+        lang_name = "Bengali"
+    elif language_code == "pa-IN":
+        lang_name = "Punjabi"
+        
+    system_prompt = f"You are a helpful AI Farmer Assistant. Please respond in the language: {lang_name} only. Prompt: {transcript}"
+    response_text = await call_gemini(system_prompt, language_code)
     audio_base64 = await sarvam_tts(response_text, language_code)
     return {
         "transcript": transcript,

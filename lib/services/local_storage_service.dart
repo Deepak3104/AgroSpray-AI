@@ -19,4 +19,8 @@ class LocalStorageService {
   Future<void> saveLastEmail(String email) => _prefs.setString(AppConstants.lastEmailKey, email);
 
   String? getLastEmail() => _prefs.getString(AppConstants.lastEmailKey);
+
+  Future<void> saveBackendUrl(String url) => _prefs.setString('backend_url', url);
+
+  String? getBackendUrl() => _prefs.getString('backend_url');
 }
